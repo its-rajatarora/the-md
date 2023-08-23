@@ -1,0 +1,110 @@
+.contact-section{
+    margin-top: 8rem;
+}
+.contact {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.contact h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #511111;
+}
+.contact .box{
+    border: 1px solid #000;
+    align-items: center;
+    padding-top: 2rem;
+    /* width: 28rem; */
+    /* padding-left: 4rem; */
+}
+.contact .box i{
+    height: 5rem;
+    width: 5rem;
+    line-height: 6rem;
+    padding: 1rem;
+    margin-left: 14rem;
+    /* padding-left: 15.7rem; */
+    font-size: 2rem;
+    border: 0.1rem solid #512a10;
+}
+.contact .box p{
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+.contact .box h3{
+    align-items: center;
+    text-align: center;
+}
+.contact form{
+    width: 45rem;
+    padding-left: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contact form h3{
+    text-align: center;
+    padding-left: 2rem;
+}
+.contact form button{
+    border: 1px solid #512a10 ;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.link-btn:hover{
+    color: #fff;
+    background-color: #512a10;
+}
+.box1{
+    margin: .7rem 0;
+    border: 0.1rem solid #512a10;
+    font-size: 1rem;
+    width: 120%;
+    padding: 1.2rem 1.4rem;
+}
+
+@media only screen and (max-width:991px){
+    .contact form{
+        width: 35rem;
+        padding-left: 0rem;
+    }
+    .box1{
+        margin: .7rem 0;
+        font-size: 1rem;
+        width: 85%;
+        padding: 1.2rem 1.4rem;
+    }
+    .contact .box i{
+        margin-left: 7rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .contact form{
+        width: 24rem;
+    }
+    .contact .box i{
+        margin-left: 4.3rem;
+    }
+    .box1{
+        margin: 0.7rem 0;
+        padding: 1rem 1rem;
+    }
+
+}
+@media only screen and (max-width:450px){
+    .contact form{
+        width: 20rem;
+    }
+    .contact .box i{
+        margin-left: 9rem;
+    }
+    .box1{
+        margin: 0.7rem 0;
+        padding: 1rem 1rem;
+    }
+
+}
+

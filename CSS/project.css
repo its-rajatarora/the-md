@@ -1,0 +1,285 @@
+.floor-section{
+   
+    height: 15rem;
+    margin-top: 6rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 6rem;
+
+}
+.floor-section h2{
+    padding-bottom: .3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #511111;
+}
+.floor{
+    background-color: #a29999;
+    padding-top: 13rem;
+    padding: 1.1rem 1.1rem;
+    box-shadow:.5rem .5rem .5rem #d9bf9b;
+    border: 1.4px solid rgb(134, 164, 116);
+
+}
+.floor img{
+    width: 100%;
+    height: auto;
+}
+.floor h3{
+    text-align: center;
+    padding-top: .6rem;
+    color: #1a150d;
+    font-weight: 500;
+
+}
+.floor p{
+    text-align: center;
+    color: #1f1405;
+    font-size: 1.4rem;
+    /* padding-top: .3rem; */
+    font-weight: 300;
+} 
+.icon-small{
+    font-size: 80%;
+    vertical-align: middle;
+    border-radius: 30%;
+}
+
+
+
+
+
+@media only screen and (max-width:687px){
+    .floor h3{
+       font-size: .6rem;
+    }
+}
+/* @media only screen and (max-width:687px){
+    .price h3{
+       font-size: .6rem;
+    }
+} */
+@media only screen and (max-width:481px){
+    .floor-section{
+        height: 70rem;
+    }
+}
+/* @media only screen and (max-width:400px){
+    .price-section{
+        height: 60rem;
+    }
+} */
+
+/* club css start  */
+.club-section{
+   
+    height: 30rem;
+    margin-top: 6rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 6rem;
+
+}
+.club-section h2{
+    padding-bottom: .3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #511111;
+}
+.club{
+    background-color: #f5f5f5;
+    padding-top: 13rem;
+    padding: 1.1rem 1.1rem;
+    box-shadow:.5rem .5rem .5rem #d9bf9b;
+    border: 1.4px solid rgb(134, 164, 116);
+    transform:scale(1);
+    transition: transfrom 3s;
+    opacity: 1;
+
+}
+.club img{
+    width: 100%;
+    height: auto;
+}
+.club h3{
+    padding-top: 1rem;
+    color: #120b01;
+    font-weight: 200;
+    text-align: center;
+
+}
+.club :hover,
+.club :active{
+    transform: scale(1.15);
+    transition:  .7s;
+    opacity: 1;
+}
+
+.section-amenities{
+    height: 20rem;
+    
+}
+.section-amenities h2{
+    padding-bottom: .3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #511111;
+}
+.amenities{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.amenities h2{
+    font-size: 1rem;
+    color: #ffeaea;
+    padding-top: 1rem;
+}
+.amenities p{
+    text-align: center;
+    color: #ffeaea;
+    padding-top: 1rem;
+}
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-img{
+    width: 18.75rem;
+    height: 12.5rem;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #fff;
+    color: rgb(41, 29, 29);
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: rgb(14, 14, 13);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+  @media only screen and (max-width:991px){
+    .club h3{
+        font-size: 1rem;
+     }
+     .flip-img{
+        width: 12.75rem;
+        height: 12.5rem;
+      }
+      .flip-box {
+       
+        width: 200px;
+        height: 200px;
+      }
+  }
+
+@media only screen and (max-width:768px){
+    .club h3{
+       font-size: .6rem;
+    }
+    .flip-img{
+        width: 10.9rem;
+        height: 12.5rem;
+      }
+      .flip-box {
+       
+        width: 176px;
+        height: 200px;
+      }
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+}
+/* @media only screen and (max-width:687px){
+    .price h3{
+       font-size: .6rem;
+    }
+} */
+@media only screen and (max-width:450px){
+    .club-section{
+        height: 65rem;
+        padding-top: 1rem;
+    }
+    .section-amenities{
+        height: 30rem;
+    }
+    
+    .amenities{
+        padding-top: 1rem;
+        padding-left: 5rem;
+    }
+    .section-amenities{
+        height: 55rem;
+        padding: 1rem;
+        
+    }
+    .flip-img{
+        width: 10.9rem;
+        height: 12.5rem;
+      }
+      .flip-box {
+       
+        width: 176px;
+        height: 200px;
+      }
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      .amenities h2{
+        font-size: .6rem;
+        color: #ffeaea;
+        padding-top: 1.3rem;
+        padding: .3rem;
+    }
+    .amenities p{
+        font-size: .6rem;
+        text-align: center;
+        color: #ffeaea;
+        padding-top: .6rem;
+    }
+}

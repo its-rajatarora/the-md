@@ -1,0 +1,102 @@
+/* about section css */
+
+.section-aboutus{
+  margin-top: 6rem;
+}
+.section-aboutus h2{
+  padding-bottom: .3rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #511111;
+}
+.aboutdiv{
+  height: 30rem;
+  width: 100%;
+}
+
+.parasecond{
+  padding-right: 4rem;
+}
+.parasecond h3{
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.parasecond p{
+  padding-right: 2.5rem;
+  text-align: justify;
+  height:22rem ;
+}
+
+ .parafirst img{
+  padding-top: 2.9rem;
+  width:35rem;
+  height: 23rem;
+  padding-left: 6rem;
+}
+@media only screen and (max-width:991px){
+  .aboutdiv{
+    height: 30rem;
+    width: 100%;
+  }
+
+  .parafirst img{
+    padding-top: 2rem;
+    width: 30rem;
+    height: 20.3rem;
+    padding-right: 3rem;
+  }
+  .parasecond h3{
+    font-weight: 300;
+    text-transform: capitalize;
+    /* font-size: 3rem; */
+  }
+  .parasecond p{
+    padding-right: 1.5rem;
+    text-align: justify;
+    height: 22rem;
+    font-size: 0.8rem;
+    padding-bottom: 1rem
+  }
+  
+}
+@media only screen and (max-width:768px){
+  .parafirst img{
+    padding-top: 3rem;
+    width: 30rem;
+    height: 16.3rem;
+    padding-right: 10rem;
+    padding-left: 2rem;
+  }
+  .parasecond p{
+    padding-right: 1.5rem;
+    text-align: justify;
+    height: 22rem;
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width:450px){
+  .aboutdiv{
+    height: 34rem;
+    width: 100%;
+  }
+  .parafirst img{
+    padding-top: 3rem;
+    width: 30rem;
+    height: 16.3rem;
+    padding-right: 11rem;
+    padding-left: 1rem;
+  }
+  .parasecond h3{
+    padding-left: 1rem;
+    text-align: center;
+    padding-top: 1rem
+  }
+  .parasecond p{
+    padding-right: 1rem;
+    text-align: justify;
+    /* height: 17rem; */
+    font-size: 0.5rem;
+    padding-left: 1rem;
+  }
+}
